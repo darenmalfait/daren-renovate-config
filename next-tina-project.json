@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "local>darenmalfait/daren-renovate-config:shared",
-    "local>darenmalfait/daren-renovate-config:next-project"
-  ],
+  "extends": ["local>darenmalfait/daren-renovate-config:next-project"],
   "packageRules": [
     {
       "groupName": "tinacms",

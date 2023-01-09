@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "local>darenmalfait/daren-renovate-config:shared",
-    "local>darenmalfait/daren-renovate-config:default"
-  ],
+  "extends": ["local>darenmalfait/daren-renovate-config:default"],
   "packageRules": [
     {
       "groupName": "react",
