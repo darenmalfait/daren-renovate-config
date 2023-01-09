@@ -1,0 +1,10 @@
+{
+  "extends": ["local>darenmalfait/daren-renovate-config:shared"],
+  "packageRules": [
+    {
+      "groupName": "all dependencies",
+      "groupSlug": "all",
+      "matchPackagePatterns": ["*"]
+    }
+  ]
+}

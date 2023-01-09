@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "local>darenmalfait/daren-renovate-config:shared",
+    "local>darenmalfait/daren-renovate-config:next-project"
+  ],
+  "packageRules": [
+    {
+      "groupName": "tinacms",
+      "matchPackagePatterns": ["@tinacms*", "tinacms*"],
+      "automerge": true
+    },
+    {
+      "groupName": "heroicons",
+      "matchPackagePatterns": "@heroicons/*"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "local>darenmalfait/daren-renovate-config:shared",
+    "local>darenmalfait/daren-renovate-config:react"
+  ],
+  "packageRules": [
+    {
+      "groupName": "NextJS",
+      "matchPackagePatterns": ["@next*", "next*"]
+    }
+  ]
+}

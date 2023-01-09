@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "local>darenmalfait/daren-renovate-config:shared",
+    "local>darenmalfait/daren-renovate-config:react"
+  ],
+  "packageRules": [
+    {
+      "groupName": "remix",
+      "matchPackagePatterns": ["@remix-run/*", "remix"]
+    },
+    {
+      "groupName": "heroicons",
+      "matchPackagePatterns": "@heroicons/*"
+    }
+  ]
+}

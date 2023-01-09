@@ -1,0 +1,39 @@
+{
+  "extends": ["local>darenmalfait/daren-renovate-config:shared"],
+  "packageRules": [
+    {
+      "matchDepTypes": ["peerDependencies"],
+      "rangeStrategy": "widen"
+    },
+    {
+      "groupName": "babel",
+      "matchPackagePatterns": ["@babel/*", "babel*"]
+    },
+    {
+      "groupName": "postcss",
+      "matchPackagePatterns": ["postcss*"]
+    },
+    {
+      "groupName": "commit-hooks",
+      "matchPackagePatterns": ["@commitlint/*", "husky"],
+      "automerge": true
+    },
+    {
+      "groupName": "Daren",
+      "matchPackagePatterns": ["@daren*"]
+    },
+    {
+      "matchDepTypes": ["action"],
+      "pinDigests": true
+    },
+    {
+      "groupName": "node",
+      "matchPackageNames": ["node"],
+      "enabled": false
+    },
+    {
+      "groupName": "github actions",
+      "matchManagers": ["github-actions"]
+    }
+  ]
+}

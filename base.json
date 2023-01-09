@@ -1,0 +1,4 @@
+{
+  "extends": ["github>darenmalfait/renovate-config:shared"],
+  "packageRules": []
+}

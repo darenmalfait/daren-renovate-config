@@ -1,0 +1,9 @@
+{
+  "extends": ["github>darenmalfait/renovate-config:shared"],
+  "packageRules": [
+    {
+      "groupName": "tailwind",
+      "matchPackagePatterns": ["@tailwind/*", "tailwindcss"]
+    }
+  ]
+}
