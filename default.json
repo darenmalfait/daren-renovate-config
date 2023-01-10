@@ -19,6 +19,10 @@
       "automerge": true
     },
     {
+      "groupName": "jest",
+      "matchPackagePatterns": ["jest*", "@types/jest", "ts-jest"]
+    },
+    {
       "groupName": "Daren",
       "matchPackagePatterns": ["@daren*"]
     },
