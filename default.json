@@ -10,6 +10,15 @@
       "matchPackagePatterns": ["@babel/*", "babel*"]
     },
     {
+      "groupName": "linters",
+      "matchPackagePatterns": [
+        "eslint*",
+        "stylelint*",
+        "prettier*",
+        "lint-staged"
+      ]
+    },
+    {
       "groupName": "postcss",
       "matchPackagePatterns": ["postcss*"]
     },
