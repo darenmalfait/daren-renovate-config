@@ -2,12 +2,12 @@
   "extends": ["local>darenmalfait/daren-renovate-config:next-project"],
   "packageRules": [
     {
-      "groupName": "tinacms",
+      "groupName": "all tinacms-related packages",
       "matchPackagePatterns": ["@tinacms*", "tinacms*"],
       "automerge": true
     },
     {
-      "groupName": "heroicons",
+      "groupName": "all icon-related packages",
       "matchPackagePatterns": "@heroicons/*"
     }
   ]

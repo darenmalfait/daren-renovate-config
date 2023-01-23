@@ -6,24 +6,26 @@
       "rangeStrategy": "widen"
     },
     {
-      "groupName": "babel",
+      "groupName": "all babel-related packages",
       "matchPackagePatterns": ["@babel/*", "babel*"]
     },
     {
-      "groupName": "linters",
+      "groupName": "all lint-related packages",
       "matchPackagePatterns": [
         "eslint*",
-        "stylelint*",
+        "lint-staged",
         "prettier*",
-        "lint-staged"
+        "remark-lint*",
+        "standard*",
+        "stylelint*"
       ]
     },
     {
-      "groupName": "postcss",
+      "groupName": "all postcss-related packages",
       "matchPackagePatterns": ["postcss*"]
     },
     {
-      "groupName": "commit-hooks",
+      "groupName": "all commit-related packages",
       "matchPackagePatterns": ["@commitlint/*", "husky"],
       "automerge": true
     },
@@ -32,7 +34,7 @@
       "matchPackagePatterns": ["jest*", "@types/jest", "ts-jest"]
     },
     {
-      "groupName": "Daren",
+      "groupName": "all darenui-related packages",
       "matchPackagePatterns": ["@daren*"]
     },
     {

@@ -2,7 +2,7 @@
   "extends": ["local>darenmalfait/daren-renovate-config:react"],
   "packageRules": [
     {
-      "groupName": "NextJS",
+      "groupName": "all nextjs-related packages",
       "matchPackagePatterns": ["@next*", "next*"]
     }
   ]

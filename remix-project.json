@@ -2,11 +2,11 @@
   "extends": ["local>darenmalfait/daren-renovate-config:react"],
   "packageRules": [
     {
-      "groupName": "remix",
+      "groupName": "all remix-related packages",
       "matchPackagePatterns": ["@remix-run/*", "remix"]
     },
     {
-      "groupName": "heroicons",
+      "groupName": "all icon-related packages",
       "matchPackagePatterns": "@heroicons/*"
     }
   ]
