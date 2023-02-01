@@ -2,6 +2,11 @@
   "extends": ["local>darenmalfait/daren-renovate-config:shared"],
   "packageRules": [
     {
+      "groupName": "all uncategorized dependencies",
+      "groupSlug": "all",
+      "matchPackagePatterns": ["*"]
+    },
+    {
       "matchDepTypes": ["peerDependencies"],
       "rangeStrategy": "widen"
     },
