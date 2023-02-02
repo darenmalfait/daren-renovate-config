@@ -26,10 +26,6 @@
       ]
     },
     {
-      "groupName": "all postcss-related packages",
-      "matchPackagePatterns": ["postcss*"]
-    },
-    {
       "groupName": "all commit-related packages",
       "matchPackagePatterns": ["@commitlint/*", "husky"],
       "automerge": true
