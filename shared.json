@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", "schedule:weekly"],
+  "extends": ["config:base", "schedule:weekends"],
   "ignorePresets": [":prHourlyLimit2"],
   "rangeStrategy": "bump",
   "automerge": true,
