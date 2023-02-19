@@ -1,0 +1,10 @@
+{
+  "extends": ["local>darenmalfait/daren-renovate-config:react"],
+  "packageRules": [
+    {
+      "groupName": "all tinacms-related packages",
+      "matchPackagePatterns": ["@tinacms*", "tinacms*"],
+      "automerge": true
+    }
+  ]
+}
