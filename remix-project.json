@@ -4,10 +4,6 @@
     {
       "groupName": "all remix-related packages",
       "matchPackagePatterns": ["@remix-run/*", "remix"]
-    },
-    {
-      "groupName": "all icon-related packages",
-      "matchPackagePatterns": "@heroicons/*"
     }
   ]
 }
