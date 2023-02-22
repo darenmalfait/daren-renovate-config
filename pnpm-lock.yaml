@@ -1,13 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@commitlint/cli': ^17.4.2
-  '@commitlint/config-conventional': ^17.4.2
+  '@commitlint/cli': ^17.4.4
+  '@commitlint/config-conventional': ^17.4.4
   husky: ^8.0.3
-  renovate: ^34.132.4
+  renovate: ^34.151.0
 
 dependencies:
-  renovate: 34.146.0
+  renovate: 34.151.0
 
 devDependencies:
   '@commitlint/cli': 17.4.4
@@ -4860,8 +4860,8 @@ packages:
       - supports-color
     dev: false
 
-  /renovate/34.146.0:
-    resolution: {integrity: sha512-/QwUxmxl3G6zaDXeNIIqUVcG6J+zJ+AFhXks/O+jMRd/8AgH8kdluMUJLI6QeSkW9JVLRtx48eRMyr4gSo6Cmg==}
+  /renovate/34.151.0:
+    resolution: {integrity: sha512-H55EbyM/VjI//zpErUXeYtYeWEArantus6EX4CQ9cLaZAD0t5qW/Xu9Tp2aZvntasPcIV6FOX51b229opbgsLQ==}
     engines: {node: ^14.15.0 || >=16.13.0, yarn: ^1.17.0}
     hasBin: true
     dependencies:

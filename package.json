@@ -8,11 +8,11 @@
     "test": "renovate-config-validator"
   },
   "dependencies": {
-    "renovate": "^34.132.4"
+    "renovate": "^34.151.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
     "husky": "^8.0.3"
   }
 }
