@@ -1,0 +1,10 @@
+{
+  "extends": ["local>darenmalfait/daren-renovate-config:next-project"],
+  "packageRules": [
+    {
+      "groupName": "all sanity-related packages",
+      "matchPackagePatterns": ["@sanity*", "next-sanity"],
+      "automerge": true
+    }
+  ]
+}
