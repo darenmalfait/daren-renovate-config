@@ -39,6 +39,10 @@
       "matchPackagePatterns": ["@daren*"]
     },
     {
+      "groupName": "all nerdfishui-related packages",
+      "matchPackagePatterns": ["@nerdfish*"]
+    },
+    {
       "matchDepTypes": ["action"],
       "pinDigests": true
     },
