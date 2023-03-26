@@ -4,10 +4,10 @@ specifiers:
   '@commitlint/cli': ^17.5.0
   '@commitlint/config-conventional': ^17.4.4
   husky: ^8.0.3
-  renovate: ^35.17.1
+  renovate: ^35.23.0
 
 dependencies:
-  renovate: 35.17.1
+  renovate: 35.23.0
 
 devDependencies:
   '@commitlint/cli': 17.5.0
@@ -2905,8 +2905,8 @@ packages:
       mimic-response: 3.1.0
     dev: false
 
-  /deepmerge/4.3.0:
-    resolution: {integrity: sha512-z2wJZXrmeHdvYJp/Ux55wIjqo81G5Bp4c+oELTW+7ar6SogWHajt5a9gO3s3IDaGSAXjDk0vlQKN3rms8ab3og==}
+  /deepmerge/4.3.1:
+    resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
     dev: false
 
@@ -4856,8 +4856,8 @@ packages:
       - supports-color
     dev: false
 
-  /renovate/35.17.1:
-    resolution: {integrity: sha512-KvnNnrtpcVv4Gu0IKWzN/hKDTXh9HPHE2MpVoftln7x65iv/mkSXq0IOYlKUf4QG6QXOqitU7i9JacCYzJjJBQ==}
+  /renovate/35.23.0:
+    resolution: {integrity: sha512-Jb+L7acUIdjU3B5tcE/9neS0GzjMbQqkZh8hiJPU0MxegeT5ZZ8f4TiJxHQ/+Zf3M9ovALd+g4U0D1gahxfaEA==}
     engines: {node: '>=18.12.0', yarn: ^1.17.0}
     hasBin: true
     dependencies:
@@ -4903,7 +4903,7 @@ packages:
       commander: 10.0.0
       conventional-commits-detector: 1.0.3
       crypto-random-string: 3.3.1
-      deepmerge: 4.3.0
+      deepmerge: 4.3.1
       delay: 5.0.0
       dequal: 2.0.3
       detect-indent: 6.1.0
