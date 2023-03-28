@@ -2,7 +2,6 @@
   "extends": ["config:base", "schedule:weekends"],
   "ignorePresets": [":prHourlyLimit2"],
   "rangeStrategy": "bump",
-  "automerge": true,
   "major": {
     "automerge": false
   },

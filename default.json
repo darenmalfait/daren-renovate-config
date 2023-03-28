@@ -27,8 +27,7 @@
     },
     {
       "groupName": "all commit-related packages",
-      "matchPackagePatterns": ["@commitlint/*", "husky"],
-      "automerge": true
+      "matchPackagePatterns": ["@commitlint/*", "husky"]
     },
     {
       "groupName": "jest",
