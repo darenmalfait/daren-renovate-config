@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "groupName": "all sanity-related packages",
-      "matchPackagePatterns": ["@sanity*", "next-sanity"]
+      "matchPackagePatterns": ["@sanity*", "next-sanity", "sanity*"]
     }
   ]
 }
