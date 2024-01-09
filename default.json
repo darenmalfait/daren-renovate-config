@@ -14,7 +14,8 @@
         "prettier*",
         "remark-lint*",
         "standard*",
-        "stylelint*"
+        "stylelint*",
+        "tailwindcss/classnames-order",
       ]
     },
   ]
