@@ -7,14 +7,6 @@
       "matchPackagePatterns": ["*"]
     },
     {
-      "matchDepTypes": ["peerDependencies"],
-      "rangeStrategy": "widen"
-    },
-    {
-      "groupName": "all babel-related packages",
-      "matchPackagePatterns": ["@babel/*", "babel*"]
-    },
-    {
       "groupName": "all lint-related packages",
       "matchPackagePatterns": [
         "eslint*",
@@ -25,34 +17,5 @@
         "stylelint*"
       ]
     },
-    {
-      "groupName": "all commit-related packages",
-      "matchPackagePatterns": ["@commitlint/*", "husky"]
-    },
-    {
-      "groupName": "jest",
-      "matchPackagePatterns": ["jest*", "@types/jest", "ts-jest"]
-    },
-    {
-      "groupName": "all darenui-related packages",
-      "matchPackagePatterns": ["@daren*"]
-    },
-    {
-      "groupName": "all nerdfishui-related packages",
-      "matchPackagePatterns": ["@nerdfish*"]
-    },
-    {
-      "matchDepTypes": ["action"],
-      "pinDigests": true
-    },
-    {
-      "groupName": "node",
-      "matchPackageNames": ["node"],
-      "enabled": false
-    },
-    {
-      "groupName": "github actions",
-      "matchManagers": ["github-actions"]
-    }
   ]
 }
