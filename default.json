@@ -7,6 +7,17 @@
       "matchPackagePatterns": ["*"]
     },
     {
+      "groupName": "styling and css packages",
+      "groupSlug": "styling", 
+      "matchPackagePatterns": [
+        "tailwind*",
+        "sass*",
+        "styled-components*",
+        "emotion*",
+        "stylex*",
+      ]
+    },
+    {
       "groupName": "all lint-related packages",
       "matchPackagePatterns": [
         "eslint*",
