@@ -8,13 +8,13 @@
     },
     {
       "groupName": "styling and css packages",
-      "groupSlug": "styling", 
+      "groupSlug": "styling",
       "matchPackagePatterns": [
         "tailwind*",
         "sass*",
         "styled-components*",
         "emotion*",
-        "stylex*",
+        "stylex*"
       ]
     },
     {
@@ -26,8 +26,8 @@
         "remark-lint*",
         "standard*",
         "stylelint*",
-        "tailwindcss/classnames-order",
+        "tailwindcss/classnames-order"
       ]
-    },
+    }
   ]
 }
