@@ -3,7 +3,6 @@
   "ignorePresets": [":prHourlyLimit2"],
   "rangeStrategy": "bump",
   "separateMultipleMajor": true,
-  "gitAuthor": "Nerdfish Bot <github@nerdfish.be>",
   "major": {
     "automerge": false
   },
