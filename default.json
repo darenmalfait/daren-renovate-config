@@ -28,6 +28,12 @@
         "stylelint*",
         "tailwindcss/classnames-order"
       ]
+    },
+    {
+      "groupName": "all nerdfish packages",
+      "matchPackagePatterns": [
+        "@nerdfish/*"
+      ]
     }
   ]
 }
