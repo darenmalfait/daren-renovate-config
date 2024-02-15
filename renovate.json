@@ -3,5 +3,6 @@
     "local>darenmalfait/daren-renovate-config:bundle-all",
     "schedule:monthly"
   ],
+  "assignees": ["darenmalfait"],
   "packageRules": []
 }
