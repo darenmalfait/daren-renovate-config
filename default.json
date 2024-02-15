@@ -15,7 +15,8 @@
         "styled-components*",
         "emotion*",
         "stylex*"
-      ]
+      ],
+      "labels": ["styling"]
     },
     {
       "groupName": "all lint-related packages",
@@ -27,13 +28,12 @@
         "standard*",
         "stylelint*",
         "tailwindcss/classnames-order"
-      ]
+      ],
+      "labels": ["linting"]
     },
     {
       "groupName": "all nerdfish packages",
-      "matchPackagePatterns": [
-        "@nerdfish/*"
-      ]
+      "matchPackagePatterns": ["@nerdfish/*"]
     }
   ]
 }

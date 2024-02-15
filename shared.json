@@ -12,7 +12,6 @@
   "semanticCommits": "enabled",
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
-
   "packageRules": [],
   "timezone": "Europe/Paris"
 }
