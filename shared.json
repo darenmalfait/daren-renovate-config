@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", "schedule:weekends"],
+  "extends": ["config:recommended", ":approveMajorUpdates", "schedule:weekends"],
   "ignorePresets": [":prHourlyLimit2"],
   "rangeStrategy": "bump",
   "separateMultipleMajor": true,
@@ -13,5 +13,6 @@
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
   "packageRules": [],
-  "timezone": "Europe/Paris"
+  "timezone": "Europe/Paris",
+  "minimumReleaseAge": "7 days"
 }
