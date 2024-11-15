@@ -8,7 +8,7 @@
     "test": "renovate-config-validator"
   },
   "dependencies": {
-    "renovate": "^39.0.3"
+    "renovate": "^39.7.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
