@@ -1,19 +1,20 @@
 {
-  "extends": ["config:recommended", ":approveMajorUpdates"],
+  "extends": [
+    "config:recommended",
+    ":approveMajorUpdates",
+    ":separateMultipleMajorReleases",
+    ":semanticPrefixFixDepsChoreOthers"
+  ],
   "schedule": ["every 2 weeks on Sunday"],
   "ignorePresets": [":prHourlyLimit2"],
+  "prConcurrentLimit": 5,
   "rangeStrategy": "bump",
-  "separateMultipleMajor": true,
-  "major": {
-    "automerge": false
-  },
   "lockFileMaintenance": {
     "enabled": false
   },
-  "semanticCommits": "enabled",
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
-  "packageRules": [],
   "timezone": "Europe/Paris",
-  "minimumReleaseAge": "7 days"
+  "minimumReleaseAge": "7 days",
+  "packageRules": []
 }
