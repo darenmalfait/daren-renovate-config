@@ -1,7 +1,7 @@
 {
   "extends": [
     "local>darenmalfait/daren-renovate-config:bundle-all",
-    "schedule:monthly"
+    "schedule:weekly"
   ],
   "assignees": ["darenmalfait"],
   "packageRules": []
