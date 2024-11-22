@@ -2,14 +2,9 @@
   "extends": ["local>darenmalfait/daren-renovate-config:default"],
   "packageRules": [
     {
-      "groupName": "all react-related packages",
-      "matchPackageNames": [
-        "react",
-        "react-dom",
-        "@types/react",
-        "@types/react-dom"
-      ],
-      "labels": ["react"]
+      "extends": ["monorepo:react"],
+      "groupName": "react monorepo",
+      "matchUpdateTypes": ["digest", "patch", "minor", "major"]
     }
   ]
 }

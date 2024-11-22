@@ -2,8 +2,9 @@
   "extends": ["local>darenmalfait/daren-renovate-config:react"],
   "packageRules": [
     {
-      "groupName": "all remix-related packages",
-      "matchPackagePatterns": ["@remix-run/*", "remix"]
+      "extends": ["monorepo:remix"],
+      "groupName": "remix monorepo",
+      "matchUpdateTypes": ["digest", "patch", "minor", "major"]
     }
   ]
 }
