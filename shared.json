@@ -7,7 +7,7 @@
     "schedule:daily"
   ],
   "ignorePresets": [":prHourlyLimit2"],
-  "prConcurrentLimit": 5,
+  "prConcurrentLimit": 3,
   "rangeStrategy": "bump",
   "lockFileMaintenance": {
     "enabled": false
