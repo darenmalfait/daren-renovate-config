@@ -1,20 +1,30 @@
 {
   "extends": [
-    "config:best-practices",
     ":approveMajorUpdates",
-    ":separateMultipleMajorReleases",
     ":semanticPrefixFixDepsChoreOthers",
+    ":separateMultipleMajorReleases",
+    "config:recommended",
+    "group:monorepos",
+    "helpers:pinGitHubActionDigests",
     "schedule:daily"
   ],
   "ignorePresets": [":prHourlyLimit2"],
+  "vulnerabilityAlerts": {
+    "description": "Be sure that the Dependency graph and Dependabot alerts are enabled for the repo. Details: https://docs.renovatebot.com/configuration-options/#vulnerabilityalerts",
+    "enabled": true,
+    "addLabels": ["security"]
+  },
+  "osvVulnerabilityAlerts": true,
   "prConcurrentLimit": 3,
   "rangeStrategy": "bump",
+  "postUpdateOptions": ["npmDedupe"],
+  "prCreation": "not-pending",
   "lockFileMaintenance": {
     "enabled": false
   },
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
   "timezone": "Europe/Paris",
-  "minimumReleaseAge": "7 days",
+  "minimumReleaseAge": "3 days",
   "packageRules": []
 }

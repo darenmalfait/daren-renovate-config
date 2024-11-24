@@ -1,9 +1,0 @@
-{
-  "extends": ["local>darenmalfait/daren-renovate-config:next-project"],
-  "packageRules": [
-    {
-      "groupName": "all tinacms-related packages",
-      "matchPackagePatterns": ["@tinacms*", "tinacms*"]
-    }
-  ]
-}
