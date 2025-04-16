@@ -4,6 +4,7 @@
     ":semanticPrefixFixDepsChoreOthers",
     ":separateMultipleMajorReleases",
     "config:recommended",
+    "group:react",
     "group:monorepos",
     "helpers:pinGitHubActionDigests",
     "schedule:daily"
