@@ -2,11 +2,6 @@
   "extends": ["local>darenmalfait/daren-renovate-config:shared"],
   "packageRules": [
     {
-      "groupName": "all uncategorized dependencies",
-      "groupSlug": "all",
-      "matchPackagePatterns": ["*"]
-    },
-    {
       "groupName": "styling and css packages",
       "groupSlug": "styling",
       "matchPackagePatterns": [
@@ -34,10 +29,6 @@
     {
       "groupName": "all nerdfish packages",
       "matchPackagePatterns": ["@nerdfish/*"]
-    },
-    {
-      "groupName": "all tinacms-related packages",
-      "matchPackagePatterns": ["@tinacms*", "tinacms*"]
     }
   ]
 }
