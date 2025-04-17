@@ -5,8 +5,11 @@
     ":separateMultipleMajorReleases",
     "config:recommended",
     "group:react",
+    "group:recommended",
     "group:monorepos",
     "helpers:pinGitHubActionDigests",
+    "replacements:all",
+    "workarounds:all",
     "schedule:daily"
   ],
   "ignorePresets": [":prHourlyLimit2"],
