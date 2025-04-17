@@ -12,7 +12,7 @@
     "workarounds:all",
     "schedule:daily"
   ],
-  "ignorePresets": [":prHourlyLimit2"],
+  "ignorePresets": [":prHourlyLimit4"],
   "vulnerabilityAlerts": {
     "description": "Be sure that the Dependency graph and Dependabot alerts are enabled for the repo. Details: https://docs.renovatebot.com/configuration-options/#vulnerabilityalerts",
     "enabled": true,
@@ -29,6 +29,5 @@
   "rebaseWhen": "conflicted",
   "labels": ["dependencies"],
   "timezone": "Europe/Paris",
-  "minimumReleaseAge": "3 days",
   "packageRules": []
 }
