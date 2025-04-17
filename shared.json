@@ -9,8 +9,7 @@
     "group:monorepos",
     "helpers:pinGitHubActionDigests",
     "replacements:all",
-    "workarounds:all",
-    "schedule:daily"
+    "workarounds:all"
   ],
   "ignorePresets": [":prHourlyLimit4"],
   "vulnerabilityAlerts": {
