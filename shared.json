@@ -1,15 +1,20 @@
 {
   "extends": [
-    ":approveMajorUpdates",
-    ":semanticPrefixFixDepsChoreOthers",
-    ":separateMultipleMajorReleases",
     "config:recommended",
     "group:react",
     "group:recommended",
     "group:monorepos",
+    "group:allDigest",
+    "group:linters",
     "helpers:pinGitHubActionDigests",
     "replacements:all",
-    "workarounds:all"
+    "workarounds:all",
+    ":approveMajorUpdates",
+    ":ignoreUnstable",
+    ":semanticCommits",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":separateMultipleMajorReleases",
+    "security:openssf-scorecard"
   ],
   "ignorePresets": [":prHourlyLimit4"],
   "vulnerabilityAlerts": {
@@ -18,10 +23,10 @@
     "addLabels": ["security"]
   },
   "osvVulnerabilityAlerts": true,
+  "prCreation": "not-pending",
   "prConcurrentLimit": 3,
   "rangeStrategy": "bump",
   "postUpdateOptions": ["npmDedupe"],
-  "prCreation": "not-pending",
   "lockFileMaintenance": {
     "enabled": false
   },
