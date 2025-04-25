@@ -4,6 +4,12 @@
     {
       "groupName": "all nerdfish packages",
       "matchPackagePatterns": ["@nerdfish/*"]
+    },
+    {
+      "groupName": "patch dependencies",
+      "groupSlug": "all-patch",
+      "matchPackageNames": ["*"],
+      "matchUpdateTypes": ["patch"]
     }
   ]
 }
